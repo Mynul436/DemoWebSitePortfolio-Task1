@@ -1,0 +1,54 @@
+.doings {
+    text-align: center;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.doings_p {
+    max-inline-size: 550px;
+    font-size: 17px;
+    /* margin: 25px 0; */
+}
+
+.doings_cads {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: row;
+    gap: 22px;
+    padding: 0 170px;
+}
+
+.doings_cads div {
+    background: var(--color_primary);
+    min-height: 500px;
+    text-align: left;
+    /* padding: 90px 13px; */
+    padding-top: 50px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+    
+}
+
+.doings_cads div p {
+    line-height: 1.75;
+    font-weight: lighter;
+    word-spacing: 1.5;
+    margin-top: 5px;
+    margin-bottom: 60px;
+   
+}
+
+.doings_cads a {
+  border: .5px solid white;
+}
+
+.doings_cads a:hover {
+  background: none;
+}

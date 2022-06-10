@@ -1,0 +1,31 @@
+.story{
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 150px 13%;
+   
+    
+}
+
+.story div{
+    background: white;
+    padding: 70px 0px;
+    padding-left: 50px;
+    padding-right: 40px;
+}
+
+.story h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.story p{
+    font-size: 16px;
+    margin: 45px 0;
+    line-height: 1.75;
+}
+.cat{
+    height: 550px;
+        width: 500px;
+}
+

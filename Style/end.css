@@ -1,0 +1,17 @@
+.ending{
+    background: var(--color_primary);
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
+}
+
+
+
+.ending h3{
+    max-inline-size: 700px;
+    font-weight: lighter;
+}

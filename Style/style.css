@@ -1,0 +1,68 @@
+:root {
+    --color_primary: rgb(6, 90, 174);
+    --grad_left: rgba(7, 90, 174, 1);
+    --grad_right: rgba(6, 122, 224, 0);
+    --scrw: 1200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+  
+}
+div{
+  width: 100%;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+h3{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a {
+  background: rgba(7, 90, 174, 1);
+  color: white;
+  padding: 15px 35px;
+  text-decoration: none;
+  width: fit-content;
+  text-align: center;
+}
+
+a:hover {
+  background: rgb(1, 112, 185);
+}
+
+.a_white{
+  background: white;
+  color: rgba(7, 90, 174, 1);
+  margin-right: 2px;
+}
+
+.a_white:hover {
+  background: white;
+}

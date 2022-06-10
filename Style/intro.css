@@ -1,0 +1,31 @@
+.intro {
+    background: linear-gradient(to right, var(--grad_left), var(--grad_right)),
+        url(../images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    object-fit: scale-down;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+}
+
+.intro_des {
+    color: white;
+    width: 620px;
+    text-align: left;
+    margin-left: 20%;
+    align-self: center;
+}
+.intro_des p {
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+    .intro_des{
+        max-width: 500px;
+    }
+
+   
+}

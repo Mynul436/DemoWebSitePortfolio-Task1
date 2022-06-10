@@ -1,0 +1,10 @@
+.feature {
+    background: rgb(244, 246, 246);
+    text-align: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+.feature h5 {
+    font-weight: bold;
+}

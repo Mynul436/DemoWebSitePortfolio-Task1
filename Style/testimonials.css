@@ -1,0 +1,26 @@
+.testimonials {
+    background: linear-gradient(to left, var(--grad_left), var(--grad_right)),
+        url(../images/img5.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 625px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+ .testimonials_des {
+    color: white;
+    max-width: 500px;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: 400px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+} 
